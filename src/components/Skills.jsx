@@ -43,7 +43,7 @@ const Skills = () => {
         style={customStyles}
       >
         <div className="flex items-center gap-2">
-          <img className="h-10" src={selectSkill?.logo} alt="..." />
+          <img className="h-10" src={selectSkill?.logo.src} alt="..." />
           <h6>{selectSkill?.name}</h6>
         </div>
         <br />
@@ -88,7 +88,7 @@ const Skills = () => {
             >
               <div>
                 <img
-                  src={skill.logo}
+                  src={skill.logo.src}
                   alt="..."
                   className="w-10 group-hover:scale-125 duration-200"
                 />

@@ -15,13 +15,13 @@ const Hireme = () => {
         <br />
         <div className="flex items-center md:flex-row flex-col-reverse ">
           <img
-            src={Hireme.image1}
+            src={Hireme.image1.src}
             alt="..."
             data-aos="fade-right"
             className="max-w-sm md:block hidden"
           />
           <img
-            src={Hireme.image2}
+            src={Hireme.image2.src}
             data-aos="fade-up"
             alt="..."
             className="max-w-sm md:hidden"

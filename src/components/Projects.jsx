@@ -24,7 +24,7 @@ const Projects = () => {
         </div>
         <div className="flex items-center lg:flex-row flex-col-reverse gap-5">
           <img
-            src={Projects.image}
+            src={Projects.image.src}
             alt="..."
             data-aos="fade-right"
             className="max-w-[45vw] min-w-[22rem]"
@@ -43,7 +43,7 @@ const Projects = () => {
                 key={i}
                 className="bg-white rounded-3xl p-5 border-b-8 border-[#FAF9FD] h-fit"
               >
-                <img src={content.image} alt="..." />
+                <img src={content.image.src} alt="..." />
                 <div className="flex flex-col gap-1 mt-2">
                   <h5 className="font-bold font-Poppins">{content.title}</h5>
                   <button className="font-bold text-gray self-end">

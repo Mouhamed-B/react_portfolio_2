@@ -44,7 +44,7 @@ const Hero = () => {
         {/* sec col */}
         <div className="md:h-[37rem] h-96">
           <img
-            src={hero.image}
+            src={hero.image.src}
             data-aos="slide-up"
             alt="..."
             className="h-full object-cover"
