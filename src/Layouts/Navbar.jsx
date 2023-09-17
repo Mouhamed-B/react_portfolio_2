@@ -23,6 +23,7 @@ const Navbar = () => {
       >
         {nav.map((item, i) => (
           <a
+            key={i}
             href={item.link}
             onClick={() => setActive(i)}
             className={`text-xl p-2.5 rounded-full sm:cursor-pointer 
