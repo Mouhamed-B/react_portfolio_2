@@ -2,7 +2,7 @@
 import React from 'react'
 
 import dynamic from 'next/dynamic'
-import '../../index.css'
+import '../../src/index.css'
  
 const App = dynamic(() => import('../../src/App'))
  
